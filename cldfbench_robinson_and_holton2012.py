@@ -25,19 +25,6 @@ class Dataset(phlorest.Dataset):
     id = "robinson_and_holton2012"
 
     def cmd_makecldf(self, args):
-        """
-summary.trees: original/pAP_beast_dollo-relaxed-clock.mcct.trees
-	cp $< $@
-
-posterior.trees: original/pAP_beast_dollo-relaxed-clock.trees.gz
-	# remove 1000 (10%), sample 1000
-	nexus trees -c -d 1-1000 $< -o tmp
-	nexus trees -n 1000 tmp -o $@
-	rm tmp
-
-data.nex:
-	cp original/AP_splits.nex $@
-        """
         self.init(args)
         with self.nexus_summary() as nex:
             self.add_tree_from_nexus(
