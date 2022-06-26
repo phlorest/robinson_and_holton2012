@@ -12,9 +12,8 @@ class Dataset(phlorest.Dataset):
         
         summary = self.raw_dir.read_tree(
             'pAP_beast_dollo-relaxed-clock.mcct.trees',
-            remove_rate=True,
             detranslate=True)
-        #args.writer.add_summary(summary, self.metadata, args.log)
+        args.writer.add_summary(summary, self.metadata, args.log)
 
         posterior = self.raw_dir.read_trees(
             'pAP_beast_dollo-relaxed-clock.trees.gz',
