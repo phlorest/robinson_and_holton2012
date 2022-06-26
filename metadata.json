@@ -2,12 +2,12 @@
     "id": "robinson_and_holton2012",
     "license": "https://creativecommons.org/licenses/by/2.0/",
     "url": "https://dx.doi.org/10.1163/22105832-20120201",
-    "citation": "Robinson, L. C., & Holton, G. (2012). Internal Classification of the Alor-Pantar Language Family Using Computational Methods Applied to the Lexicon. Language Dynamics and Change, 2(2), 123\u2013149. doi:10.1163/22105832-20120201",
+    "citation": "Robinson, L. C., & Holton, G. (2012). Internal Classification of the Alor-Pantar Language Family Using Computational Methods Applied to the Lexicon. Language Dynamics and Change, 2(2), 123-149. doi:10.1163/22105832-20120201",
     "name": "Alor-Pantar (Robinson & Holton 2012)",
     "author": "Robinson and Holton",
     "year": 2012,
+    "family": "Alor-Pantar",
     "scaling": "none",
     "analysis": "bayesian",
-    "family": "timo1261",
     "cldf": "https://github.com/lexibank/robinsonap"
 }

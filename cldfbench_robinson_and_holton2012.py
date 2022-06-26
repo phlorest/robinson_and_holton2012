@@ -1,23 +1,6 @@
-import re
 import pathlib
 
-import nexus
 import phlorest
-
-
-def fix_nexus(p):
-    """
-    Separate the charlabels in a nexus file with commas.
-    """
-    text = p.read_text(encoding='utf8')
-    occs = list(re.finditer(r'(?P<charlabel>[0-9]+\s+[0-9]+_[a-z_0-9.]+-[0-9]+)\n', text))
-    new, i = [], 0
-    for j, m in enumerate(occs, start=1):
-        new.append(text[i:m.start()])
-        new.append(m.group('charlabel') + ',' if j != len(occs) else '' + '\n')
-        i = m.end()
-    new.append(text[i:])
-    return nexus.NexusReader.from_string(''.join(new))
 
 
 class Dataset(phlorest.Dataset):
@@ -26,25 +9,19 @@ class Dataset(phlorest.Dataset):
 
     def cmd_makecldf(self, args):
         self.init(args)
-        with self.nexus_summary() as nex:
-            self.add_tree_from_nexus(
-                args,
-                self.read_nexus(
-                    self.raw_dir / 'pAP_beast_dollo-relaxed-clock.mcct.trees', remove_rate=True),
-                nex,
-                'summary',
-                detranslate=True,
-            )
-        posterior = self.sample(
-            self.remove_burnin(
-                self.read_gzipped_text(self.raw_dir / 'pAP_beast_dollo-relaxed-clock.trees.gz'),
-                1000,
-            ),
-            detranslate=True,
-            as_nexus=True)
+        
+        summary = self.raw_dir.read_tree(
+            'pAP_beast_dollo-relaxed-clock.mcct.trees',
+            remove_rate=True,
+            detranslate=True)
+        #args.writer.add_summary(summary, self.metadata, args.log)
 
-        with self.nexus_posterior() as nex:
-            for i, tree in enumerate(posterior.trees.trees, start=1):
-                self.add_tree(args, tree, nex, 'posterior-{}'.format(i))
+        posterior = self.raw_dir.read_trees(
+            'pAP_beast_dollo-relaxed-clock.trees.gz',
+            burnin=1000, sample=1000, detranslate=True)
+        args.writer.add_posterior(posterior, self.metadata, args.log)
 
-        self.add_data(args, fix_nexus(self.raw_dir / 'AP_splits.nex'))
+        args.writer.add_data(
+            self.raw_dir.read_nexus('AP_splits.nex'),
+            self.characters,
+            args.log)
