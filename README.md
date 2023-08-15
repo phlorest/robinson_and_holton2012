@@ -1,6 +1,7 @@
 # Phlorest phylogeny derived from Robinson and Holton 2012 'Internal Classification of the Alor-Pantar Language Family Using Computational Methods Applied to the Lexicon'
 
 [![CLDF validation](https://github.com/phlorest/robinson_and_holton2012/workflows/CLDF-validation/badge.svg)](https://github.com/phlorest/robinson_and_holton2012/actions?query=workflow%3ACLDF-validation)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8250285.svg)](https://doi.org/10.5281/zenodo.8250285)
 
 ## How to cite
 
