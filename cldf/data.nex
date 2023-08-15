@@ -1,22 +1,7 @@
 #NEXUS
-[pAP lexical cognate data for SplitsTree coded 2012-07-27][Authors: Gary Holton and Laura Robinson][gmholton@alaska.edu]
-BEGIN Taxa;
-	DIMENSIONS ntax=13;
-	TAXLABELS
-[1] 'Tw'
-[2] 'Nd'
-[3] 'Ke'
-[4] 'WP'
-[5] 'Bl'
-[6] 'Ad'
-[7] 'Kl'
-[8] 'Ki'
-[9] 'Ab'
-[10] 'Km'
-[11] 'Sw'
-[12] 'We'
-[13] 'pAP'
-;
+BEGIN TAXA;
+DIMENSIONS NTAX=13;
+TAXLABELS Tw Nd Ke WP Bl Ad Kl Ki Ab Km Sw We pAP;
 END;
 BEGIN DATA;
 DIMENSIONS NCHAR=2441;
