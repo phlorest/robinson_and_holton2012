@@ -8,7 +8,7 @@
     "author": "Robinson and Holton",
     "year": 2012,
     "family": "Alor-Pantar",
-    "scaling": "none",
+    "scaling": "arbitrary",
     "analysis": "bayesian",
     "cldf": "https://doi.org/10.5281/zenodo.1312827",
     "artefacts": ["raw/ap_beast.xml"]
