@@ -33,20 +33,20 @@
         {
             "rdf:about": "https://github.com/phlorest/robinson_and_holton2012",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-1-g9cce04f",
+            "dc:created": "v1.1-3-g82f1e40",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8",
+            "dc:created": "v5.2",
             "dc:title": "Glottolog"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.10.12"
+            "dc:description": "3.12.3"
         },
         {
             "dc:title": "python-packages",

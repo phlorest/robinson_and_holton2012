@@ -12,10 +12,10 @@ property | value
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Generic](http://cldf.clld.org/v1.0/terms.rdf#Generic)
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://doi.org/10.1163/22105832-20120201
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
-[dc:subject](http://purl.org/dc/terms/subject) | <dl><dt>family</dt><dd>Alor-Pantar</dd><dt>analysis</dt><dd>bayesian</dd><dt>scaling</dt><dd>none</dd></dl>
+[dc:subject](http://purl.org/dc/terms/subject) | <dl><dt>family</dt><dd>Alor-Pantar</dd><dt>analysis</dt><dd>bayesian</dd><dt>scaling</dt><dd>arbitrary</dd></dl>
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/phlorest/robinson_and_holton2012
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="data.nex">data.nex </a></li><li><a href="https://doi.org/10.5281/zenodo.1312827">https://doi.org/10.5281/zenodo.1312827 </a></li><li><a href="https://github.com/phlorest/robinson_and_holton2012/tree/9cce04f">phlorest/robinson_and_holton2012 v1.0-1-g9cce04f</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.8">Glottolog v4.8</a></li></ol>
-[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.10.12</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="data.nex">data.nex </a></li><li><a href="https://doi.org/10.5281/zenodo.1312827">https://doi.org/10.5281/zenodo.1312827 </a></li><li><a href="https://github.com/phlorest/robinson_and_holton2012/tree/82f1e40">phlorest/robinson_and_holton2012 v1.1-3-g82f1e40</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.2">Glottolog v5.2</a></li></ol>
+[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.12.3</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | robinson_and_holton2012
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
