@@ -1,0 +1,200 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.588,
+          -8.31058
+        ]
+      },
+      "properties": {
+        "Name": "Ab",
+        "Glottocode": "abui1241",
+        "xd_ids": [
+          "xd764"
+        ],
+        "isocode": "abz",
+        "Glottolog_Name": "Abui"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.448,
+          -8.18958
+        ]
+      },
+      "properties": {
+        "Name": "Ad",
+        "Glottocode": "adan1251",
+        "isocode": "adn",
+        "Glottolog_Name": "Adang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.251,
+          -8.31787
+        ]
+      },
+      "properties": {
+        "Name": "Bl",
+        "Glottocode": "blag1240",
+        "isocode": "beu",
+        "Glottolog_Name": "Blagar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0177,
+          -8.3287
+        ]
+      },
+      "properties": {
+        "Name": "Ke",
+        "Glottocode": "kaer1234",
+        "isocode": "jka",
+        "Glottolog_Name": "Kaera"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.792,
+          -8.26897
+        ]
+      },
+      "properties": {
+        "Name": "Km",
+        "Glottocode": "kama1365",
+        "isocode": "woi",
+        "Glottolog_Name": "Kamang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.429,
+          -8.40688
+        ]
+      },
+      "properties": {
+        "Name": "Kl",
+        "Glottocode": "kelo1247",
+        "isocode": "kyo",
+        "Glottolog_Name": "Klon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.791,
+          -8.38204
+        ]
+      },
+      "properties": {
+        "Name": "Ki",
+        "Glottocode": "kuii1253",
+        "isocode": "kvd",
+        "Glottolog_Name": "Kui (Indonesia)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.192,
+          -8.28776
+        ]
+      },
+      "properties": {
+        "Name": "Nd",
+        "Glottocode": "nede1245",
+        "isocode": "nec",
+        "Glottolog_Name": "Nedebang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.078,
+          -8.29105
+        ]
+      },
+      "properties": {
+        "Name": "Sw",
+        "Glottocode": "sawi1256",
+        "isocode": "swt",
+        "Glottolog_Name": "Sawila"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.174,
+          -8.37662
+        ]
+      },
+      "properties": {
+        "Name": "Tw",
+        "Glottocode": "teiw1235",
+        "isocode": "twe",
+        "Glottolog_Name": "Teiwa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.932,
+          -8.33936
+        ]
+      },
+      "properties": {
+        "Name": "We",
+        "Glottocode": "wers1238",
+        "isocode": "kvw",
+        "Glottolog_Name": "Wersing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.057,
+          -8.52787
+        ]
+      },
+      "properties": {
+        "Name": "WP",
+        "Glottocode": "lamm1241",
+        "isocode": "lev",
+        "Glottolog_Name": "Western Pantar"
+      }
+    }
+  ]
+}
